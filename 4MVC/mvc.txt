@@ -1,0 +1,45 @@
+O MVC - Model View Controller é um padrão de arquitetura que quando bem implementado separa estas 3 camadas num software, tanto em pastas quanto em classes.
+
+O MVC é o padrão de arquitetura mais usado na web e é requisito praticamente essencial para qualquer programador.
+
+Model - manipula os dados, escrita,leitura e validação dos dados. Nele são implementadas as regras de negócios. Regras de negócios são as definições, de como a empresa em questão faz negócios. É a declaração de como a empresa trabalha, todos os processos para execução do serviço, ou entrega do produto com que a empresa trabalha. Exemplo: código específico de um controle de estoque, caixa, etc.
+O Controller é a primeira camada que recebe os parâmetros de requisições dos usuários e algumas vezes responde com um response mesmo sem nenhuma interação com as outras duas camadas, decidindo baseado nesta requisição. O controller é quem controla model e view e por conta da segurança a view não deve ir diretamente ao model, mas sempre passar antes pelo con troller. Ela gerência as ações realizadas, fala qual Model e qual View utilizar para que a ação seja completada. 
+Interage com o model e envia dados para a view. Cada model está ligado a somente um único controller.
+View renderiza a resposta para o usuário recebida do Controller.
+
+Desta forma, alterações feitas no layout não afetam a manipulação de dados, e estes poderão ser reorganizados sem alterar o layout. Então poderemos ter alguns programadores e designers trabalhando em um único projeto sem afetar a área dos outros.
+
+A maior parte dos frameworks em PHP (todos os populares que conheço) e dos CMS (exceto WordPress), todos usam orientação a objetos e MVC.
+
+Aqui é até redundante dizer que para os que estão querendo aprender sobre MVC, a experimentação prática dos exemplos é imprescindível, portanto experimente, altere, personalize e teste bastante até entender e ficar satisfeito.
+
+Fluxo das Informações no MVC
+
+- Geralmente o fluxo começa a ser atentido pelo Controller quando um usuário faz uma requisição, clicando num botão submit ou num link
+- Daí o Controller a filtra (se for o caso) e a envia para o Model, ou devolve diretamente ao usuário sem interagir nem com model ou a view
+- CAso o model receba solicitação do Controller, analisa de acordo com a solicitação (uma consulta ao banco) e a devolve ao Controller
+- O Controler por sua vez devolve o resultado para a View
+- E a View renderiza o resultado e o mostra para o usuário
+
+Lembrar que geralmente o usuário está frente a um computador ou celular e o software está num servidor.
+
+Alguns programadores dizem que a implementação do MVC é inadequada para o PHP. Eu fecho os olhos/ouvidos para isso por conta do que sinto na prática, ou seja, eu vejo um software mais organizado e reutilização de código e isso para mim basta.
+
+Criar seu próprio framework aqui não tem a pretensão de oferecer um software que substitua os grandes frameworks atuais, mas de fornecer uma forma de aprendizado sobre o PHP, sobre a orientação a objetos, sobre alguns padrões e sobre o MVC. Assim você ficará mais apto a usar com eficiência os grandes frameworks.
+
+SOLID
+S.O.L.I.D: Os 5 princípios da POO
+
+    S — Single Responsiblity Principle (Princípio da responsabilidade única)
+    O — Open-Closed Principle (Princípio Aberto-Fechado)
+    L — Liskov Substitution Principle (Princípio da substituição de Liskov)
+    I — Interface Segregation Principle (Princípio da Segregação da Interface)
+    D — Dependency Inversion Principle (Princípio da inversão da dependência)
+Bom tutorial sobre uso do SOLID com PHP
+https://medium.com/joaorobertopb/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530
+
+Front Controller - é o único ponto de entrada para o aplicativo. Podemos usar um .htaccess para redirecionar tudo para este ponto. Um exemplo é ter um diretório public e dentro dele um index.php. Este index.php será nosso FrontController.
+
+
+
+

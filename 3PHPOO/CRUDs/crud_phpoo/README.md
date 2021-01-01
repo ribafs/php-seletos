@@ -1,0 +1,8 @@
+# CRUD com PHPOO
+
+Com bons recursos
+
+
+## A paginação básica que utilizei para criar este aplicativo:
+
+https://www.kodingmadesimple.com/2017/01/simple-ajax-pagination-in-jquery-php-pdo-mysql.html

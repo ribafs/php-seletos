@@ -1,0 +1,7 @@
+Conexão
+
+<?php 
+
+$PDO = new PDO('sqlite:./db/sqlite3.db');
+
+As consultas são idênticas para todos os SGBDs, somente a conexão é diferente.
