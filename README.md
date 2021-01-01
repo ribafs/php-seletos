@@ -64,18 +64,18 @@ Aplicativos
 - mini-mvc
 
 - simplest-mvc
-	-/mvc0
-	-/mvc1
-	-/mvc2
-	-/mvc3
-	-/mvc4
-	-/mvc5
-	-/mvc6
-	-/mvc7
-	-/mvc8
-	-/mvc9
-	-/rotas
-	-/1Dependencias
+	- /mvc0
+	- /mvc1
+	- /mvc2
+	- /mvc3
+	- /mvc4
+	- /mvc5
+	- /mvc6
+	- /mvc7
+	- /mvc8
+	- /mvc9
+	- /rotas
+	- /1Dependencias
 
 - Rotas
 	 - /mvc-router-inicial
