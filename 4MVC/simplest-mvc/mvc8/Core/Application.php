@@ -1,7 +1,7 @@
 <?php
 namespace Core;
 
-class Router
+class Application
 {
     private $urlController = null;
 

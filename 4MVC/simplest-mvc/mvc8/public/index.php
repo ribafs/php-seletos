@@ -15,8 +15,8 @@ require ROOT . 'vendor/autoload.php';
 require CORE . 'config.php';
 
 // load application class
-use Core\Router;
+use Core\Application;
 
 // start the application
-$app = new Router();
+$app = new Application();
 
