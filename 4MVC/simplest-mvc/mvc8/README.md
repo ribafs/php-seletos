@@ -11,7 +11,7 @@ MySQL
 - Windows 10 com PHP 8
 - Linux Mint com PHP 7.4
 
-Nesta versão mudei os dados do banco para o config.php.
+Nesta versão criei o arquivo config.php e movi os dados do banco para ele.
 
 Criando um CRUD completo. Até agora estivemos trabalhando somente com o método index. Agora estaremos adicionando o edit, o new e o delete. Assim teremos um aplicativo funcional e útil.
 

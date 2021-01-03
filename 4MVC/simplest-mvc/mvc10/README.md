@@ -1,8 +1,10 @@
 # Como adicionar pacotes de terceiros
 
+Adicionando dependências
+
 ## Package to migrations - phinx and faker
 
-Installation
+Instalação
 
 composer require robmorgan/phinx
 composer require fzaninotto/faker

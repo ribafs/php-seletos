@@ -8,6 +8,6 @@ Obrigado.
 
 ## Obs
 
-Não lembro de onde baixei este exemplo.
+Este exemplo não foi criado por mim e não lembro de onde baixei.
 
 

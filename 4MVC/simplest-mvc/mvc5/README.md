@@ -1,6 +1,6 @@
 # MVC Simples em PHP com banco de dados
 
-Este versão implementa um sistema de rotas simples, o front controller e mais alguns bosn recursos.
+Este versão implementa um sistema de rotas simples, o front controller e mais alguns bons recursos.
 
 Agora temos nosso MVC em PHP completo. Isso do meu ponto de vista, pois ao meu ver a sua criação teve a finalidade de nos ensinar a usar alguns dos bons e importantes recursos encontrados nos grandes frameworks: PHPOO, MVC, Rotas, Front Controller, autoload com composer e PSR-4, entre outros. Me parece que um grande framework como o Laravel já nos entre o que existe de melhor pronto, babsta usar. Claro que você pode aproveitar o que fizemos e ir em frente, escolha sua. 
 
