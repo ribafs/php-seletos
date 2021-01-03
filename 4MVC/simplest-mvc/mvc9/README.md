@@ -71,6 +71,12 @@ Agora temos nosso MVC em PHP completo. Isso do meu ponto de vista, pois ao meu v
     - Model
     - Router
 
+## Semãntica
+
+Por sugestão de um colega de grupo alterei o nome da classe Router para Application, por conta da semãntica, visto que a classe representa o aplicativo e tudo começa com ela.
+
+É importante dar para as classes, métodos e propriedades nomes semânticos, ou seja, nomes que tenham a ver com suas funcionalidades. Assim fica mais fácil de identificar cada um.
+
 ## Fluxo das informações
 
 - Veja que não mais existe um index.php. Quando alguém chega no raiz de mvc5 é redirecionado para a apsta public pelo .htaccess
