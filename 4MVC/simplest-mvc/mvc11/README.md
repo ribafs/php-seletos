@@ -11,7 +11,7 @@ MySQL
 - Windows 10 com PHP 8
 - Linux Mint 20 com PHP 7.4
 
-Nesta fase 10 fiz um pequneo ajuste na busca, mas ainda não ficou OO, fica para a próxima.
+Nesta fase ajustei a busca como um método no Model e no Controller, bonitinho.
 
 Nesta versão implementarei a busca.
 
