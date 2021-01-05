@@ -11,7 +11,7 @@ MySQL
 - Windows 10 com PHP 8
 - Linux Mint 20 com PHP 7.4
 
-A pretensão desta fase é implementar a busca usando o bootpag, plugin do jQuery. Para isso reduzirei a versão do Bootstrap para a 3.3.
+Nesta fase efetuei alguns  ajustes na view clients/index.
 
 Nesta fase ajustei a busca como um método no Model e no Controller, bonitinho.
 
@@ -23,7 +23,7 @@ Deixo a tarefa de deixar products redondinho com você. Basta seguir clients.
 
 ## Introdução
 
-Agora eu entendi melhor o que se chama de gambiarra. Acho errado usar este termo que com o tempo se tornou pejorativo, algo errado de se fazer. Tentei muito implementar a busca bonitinha, como fiz com o restante, usando model, controller e view. Mas ficou muito trabalhoso e eu não queria desistir de adicionar a busca. Então fiz do jeito "errado". Fiz uma gambiarra. Criei uma nova conexão sem classe e pesquisei o banco dentro da view. Resumindo, acho isso criatividade para se resolver problemas. Bem, o objetivo aqui não é o de criar um novo framework a ser adotado em grande escala, mas o de oferecer um aplicativo que possa ajudar os colegas a entenderem estes conceitos usados nos grandes frameworks: MVC, rotas, front controller, etc. Claro que existe a possibilidade de daqui surgir um grande framework, afinal todos os grandes nasceram pequenos. Mas algo que é correto afirmar é que é impossível para um iniciante criar um grande framework. Acho impossível que crie mesmo um pequeno framework. Para isso precisa estudar muito e além de estudar, ralar, especimentar, customizar, debugar muita coisa até que se torne um programador profissional e possa criar algo bom.
+O objetivo aqui não é o de criar um novo framework a ser adotado em grande escala, mas o de oferecer um aplicativo que possa ajudar os colegas a entenderem estes conceitos usados nos grandes frameworks: MVC, rotas, front controller, etc. Claro que existe a possibilidade de daqui surgir um grande framework, afinal todos os grandes nasceram pequenos. Mas algo que é correto afirmar é que é impossível para um iniciante criar um grande framework. Acho impossível que crie mesmo um pequeno framework. Para isso precisa estudar muito e além de estudar, ralar, especimentar, customizar, debugar muita coisa até que se torne um programador profissional e possa criar algo bom.
 
 ## config
 
