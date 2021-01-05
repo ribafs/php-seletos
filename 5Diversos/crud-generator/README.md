@@ -32,3 +32,10 @@ Core
     ErrorController.php
     Model.php
 
+Aqui está faltando os dois primeiros exemplos.
+
+O segundo pode ser encontrado aqui:
+
+https://github.com/ribafs/crud-generator
+
+Falta o primeiro.
